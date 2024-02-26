@@ -3,6 +3,7 @@ extends Node2D
 var direction = Vector2(5,0)
 
 func _process(_delta):
+#Add movement on ImputMap with this names or change to the one you are gonna use. Script must be on Main and Player as a Child.
 	if(Input.is_action_just_pressed("move_up")):
 		direction = Vector2(0,-5)
 	elif(Input.is_action_just_pressed("move_down")):
