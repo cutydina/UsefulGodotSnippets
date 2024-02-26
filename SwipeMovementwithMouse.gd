@@ -8,6 +8,7 @@ var swiping  = false
 var treeshold = 10
 
 func _process(_delta):
+	#Add "Press" on InputMap and select "MouseLeftButton" to make this work.
 	if Input.is_action_just_pressed("press"):
 		if !swiping:
 			swiping = true
