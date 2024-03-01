@@ -73,6 +73,3 @@ func _physics_process(_delta):
 		
 		if current_id_path.is_empty() == false:
 			target_position = tile_map.map_to_local(current_id_path.front())
-		else:
-			is_moving == false
-			print("not moving")
