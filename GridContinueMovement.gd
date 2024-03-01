@@ -17,6 +17,6 @@ func _process(_delta):
 		
 		
 func move_player():
-	#If main node is "Player" will be just position +=direction/2
+	#If main node is "Player" will be just: position +=direction/2
 	var player_pos = get_node("Player").position
 	get_node("Player").position +=direction/2
