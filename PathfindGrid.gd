@@ -1,5 +1,6 @@
 extends CharacterBody2D
 
+#Drag Tilemap here so it create a path to your Tilemap in your Scene
 @onready var tile_map = $"../TileMap"
 
 var astar_grid: AStarGrid2D
