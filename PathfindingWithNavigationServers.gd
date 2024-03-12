@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-#Nodes will be like this: Line2D - CharacterBody2D with Sprite2D, CollissionShape, NavigationAgent2D and attaching this script - NavigationRegion2D
+#Nodes will be like this: Line2D - CharacterBody2D with Sprite2D, CollissionShape, NavigationAgent2D and attaching this script - NavigationRegion2D with a created NavigationPolygonShape
 
 @onready var navReg =$"../NavigationRegion2D"
 @onready var nav = get_node("NavigationAgent2D")
